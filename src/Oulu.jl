@@ -6,4 +6,8 @@ function myfunc(x)
     return x+2
 end
 
+function whatisneeded()
+    println("What else is needed here?")
+end
+
 end # module
