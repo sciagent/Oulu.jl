@@ -1,0 +1,13 @@
+name = "Oulu"
+uuid = "64834c8e-64cc-4137-8a5d-82750b60ec3a"
+authors = ["Carsten Bauer <crstnbr@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
