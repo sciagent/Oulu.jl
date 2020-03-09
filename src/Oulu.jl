@@ -1,5 +1,7 @@
 module Oulu
 
+using HTTP, DataFrames
+
 greet() = print("Hello World!")
 
 function myfunc(x)
