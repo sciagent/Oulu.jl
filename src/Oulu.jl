@@ -8,7 +8,7 @@ function myfunc(x)
     return x+2
 end
 
-function coronavirusupdate() //by sciagent
+function coronavirusupdate()
     r = HTTP.get("https://www.worldometers.info/coronavirus/", cookies=true);
     data = String(r.body)
     println(data[findfirst(r"Coronavirus Update*?(.*) Wuhan China Virus Outbreak"s, data)])
